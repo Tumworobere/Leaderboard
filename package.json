@@ -1,0 +1,28 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "server.js",
+  "dependencies": {
+    "add": "^2.0.6",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tumworobere/To-Do-List.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tumworobere/To-Do-List/issues"
+  },
+  "homepage": "https://github.com/Tumworobere/To-Do-List#readme"
+}
