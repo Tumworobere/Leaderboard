@@ -4,7 +4,7 @@ In this project i acheived the following
 
 - Used ES6 modules, with import and export
 - Created an npm project with webpack
-- Wrote plain HTML markup 
+- Wrote plain HTML markup with minumum styling
 - Used Gitflow in this project
 
 
