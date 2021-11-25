@@ -1,10 +1,10 @@
 const scoreData = [
-  { name: 'name', score: 100 },
-  { name: 'name', score: 53 },
-  { name: 'name', score: 67 },
-  { name: 'name', score: 51 },
-  { name: 'name', score: 23 },
-  { name: 'name', score: 98 },
+  { name: 'Annah', score: 100 },
+  { name: 'Tannah', score: 53 },
+  { name: 'Samara', score: 67 },
+  { name: 'Tamara', score: 51 },
+  { name: 'Kamara', score: 23 },
+  { name: 'Amara', score: 98 },
 ];
 
 const loadTable = () => {
