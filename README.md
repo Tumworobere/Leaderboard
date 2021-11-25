@@ -16,8 +16,7 @@ In this project i acheived the following
 
 ## Live Demo
 
-[In progress live link](https://tumworobere.github.io/Leaderboard/dist)
-
+[Live Preview of my website](https://tumworobere.github.io/Leaderboard/)
 
 ## Getting Started
 
