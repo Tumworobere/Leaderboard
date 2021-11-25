@@ -22,7 +22,7 @@ In this project i acheived the following
 
 To get a local copy up and running follow these simple example steps.
 
-1. First clone the project with the command git clone https://github.com/Tumworobere/Leaderboard.git
+1. First clone the project with the command git clone  git@github.com:Tumworobere/Leaderboard.git
 2. Then run the command `npm install` in your terminal to install all package
 3. run `npm start` for starting the project in your browser
 
