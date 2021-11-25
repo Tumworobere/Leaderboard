@@ -14,14 +14,18 @@ In this project i acheived the following
 - HTML and CSS
 - Javascript
 
+## Live Demo
+
+[In progress live link](https://tumworobere.github.io/Leaderboard/dist)
+
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-### Usage
-
-- Clone this repo to your local machine
-- Open the `index.html` in your browser
+1. First clone the project with the command git clone https://github.com/Tumworobere/Leaderboard.git
+2. Then run the command `npm install` in your terminal to install all package
+3. run `npm start` for starting the project in your browser
 
 ## Authors
 
