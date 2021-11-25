@@ -1,12 +1,14 @@
 {
-  "name": "to-do-list",
+  "name": "Leaderboard",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "server.js",
   "dependencies": {
     "add": "^2.0.6",
     "babel-jest": "^27.3.1",
+    "css-loader": "^6.5.1",
     "jest": "^27.3.1",
+    "style-loader": "^3.3.1",
     "ts-jest": "^27.0.7"
   },
   "devDependencies": {
@@ -25,19 +27,19 @@
     "webpack-dev-server": "^4.4.0"
   },
   "scripts": {
-    "test": "jest",
-    "start": "node server.js",
-    "build": "webpack"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tumworobere/To-Do-List.git"
+    "url": "git+https://github.com/Tumworobere/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tumworobere/To-Do-List/issues"
+    "url": "https://github.com/Tumworobere/Leaderboard/issues"
   },
-  "homepage": "https://github.com/Tumworobere/To-Do-List#readme"
+  "homepage": "https://github.com/Tumworobere/Leaderboard#readme"
 }
