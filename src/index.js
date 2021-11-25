@@ -1,4 +1,4 @@
-import ScoresTable from './scoresTable';
+import loadTable from './loadTable.js';
 import './style.css';
 
-ScoresTable();
+loadTable();

@@ -1,13 +1,13 @@
 const scoreData = [
-  { name: 'Anna', score: 99 },
-  { name: 'Tanna', score: 75 },
-  { name: 'Mara', score: 63 },
-  { name: 'Samara', score: 75 },
-  { name: 'Tamara', score: 53 },
-  { name: 'Mable', score: 87 },
+  { name: 'name', score: 100 },
+  { name: 'name', score: 53 },
+  { name: 'name', score: 67 },
+  { name: 'name', score: 51 },
+  { name: 'name', score: 23 },
+  { name: 'name', score: 98 },
 ];
 
-const scoresTable = () => {
+const loadTable = () => {
   const table = document.querySelector('.scoreboard-table');
   scoreData.forEach((data) => {
     const tr = document.createElement('tr');
@@ -20,4 +20,4 @@ const scoresTable = () => {
     table.appendChild(tr);
   });
 };
-export default scoresTable;
+export default loadTable;
