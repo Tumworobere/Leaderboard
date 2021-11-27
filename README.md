@@ -18,7 +18,34 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone this repo to your local machine, run git clone and paste the url of the repository
   `git clone https://github.com/Tumworobere/Leaderboard.git` in your command prompt
-- Open the project in your browser run `npm run build` and then run `npm run start`.
+
+### Setup
+- Set up a new project with webpack 
+#### Install Webpack
+- Follow the instructions from the [getting started](https://webpack.js.org/guides/getting-started/#basic-setup) guide to set up the basics. Implement all the steps from *Basic Setup* to *NPM Scripts*.
+- The next step is to add html file :
+    Follow the instructions from the [setting up HtmlWebpackPlugin](https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin) guide
+Then
+```
+npm run build
+```
+- Create a **/src/index.html** for writing the project
+
+- Then modify **webpack.config.js** to point HtmlWebpackPlugin towards your template file:
+```javascript
+plugins: [
+  new HtmlWebpackPlugin({
+-   title: 'Output Management',
++   template: './src/index.html'
+  }),
+],
+```
+- Run `npm run build` to update the **/dist/index.html**.
+- Then it is time to add some style to the project:
+Follow the steps in [loading CSS](https://webpack.js.org/guides/asset-management/#loading-css) guide.
+Next, execute `npm run build` and check if the HTML body style has changed.
+#### Setup local dev server
+- Finally,follow the [using webpack-dev-server](https://webpack.js.org/guides/development/#using-webpack-dev-server) guide and set it up on your local machine.
 
 ## Authors
 
