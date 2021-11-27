@@ -1,12 +1,6 @@
 # Leaderboard
 
-In this project i acheived the following
-
-- Used ES6 modules, with import and export
-- Created an npm project with webpack
-- Wrote plain HTML markup with minumum styling
-- Used Gitflow in this project
-
+The Leaderboard is a javascript App that displays scores submitted by different players. It is developed using webpack and ES6 features. It allows you to submit scores of players to the scoreboard and all data is preserved to the external Leaderboard API. 
 
 ## Built With
 
@@ -22,9 +16,9 @@ In this project i acheived the following
 
 To get a local copy up and running follow these simple example steps.
 
-1. First clone the project with the command git clone  git@github.com:Tumworobere/Leaderboard.git
-2. Then run the command `npm install` in your terminal to install all package
-3. run `npm start` for starting the project in your browser
+- Clone this repo to your local machine, run git clone and paste the url of the repository
+  `git clone https://github.com/Tumworobere/Leaderboard.git` in your command prompt
+- Open the project in your browser run `npm run build` and then run `npm run start`.
 
 ## Authors
 
