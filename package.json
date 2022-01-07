@@ -1,35 +1,12 @@
 {
-  "name": "Leaderboard",
+  "name": "leaderboard",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
-  "main": "server.js",
-  "dependencies": {
-    "add": "^2.0.6",
-    "babel-jest": "^27.3.1",
-    "css-loader": "^6.5.1",
-    "jest": "^27.3.1",
-    "style-loader": "^3.3.1",
-    "ts-jest": "^27.0.7"
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.25.3",
-    "hint": "^6.1.9",
-    "html-webpack-plugin": "^5.5.0",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0",
-    "webpack": "^5.62.1",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.4.0"
-  },
+  "description": "In this project we build a simple and powerful webpack boilerplate, which we can later use as a starting point in all your JS projects",
+  "private": true,
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "start": "webpack --config webpack.config.js --watch"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -39,7 +16,28 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tumworobere/Leaderboard/issues"
+    "url": "https://github.com/Tumworobere/setUp-webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/Tumworobere/Leaderboard#readme"
+  "homepage": "https://github.com/Tumworobere/Leaderboard/#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^6.5.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.3",
+    "hint": "^6.1.9",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "main": "webpack.config.js"
 }
