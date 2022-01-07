@@ -1,12 +1,6 @@
 # Leaderboard
 
-In this project i acheived the following
-
-- Used ES6 modules, with import and export
-- Created an npm project with webpack
-- Wrote plain HTML markup with minumum styling
-- Used Gitflow in this project
-
+The Leaderboard is a javascript App that displays scores submitted by different players. It is developed using webpack and ES6 features. It allows you to submit scores of players to the scoreboard and all data is preserved to the external Leaderboard API. 
 
 ## Built With
 
@@ -22,9 +16,36 @@ In this project i acheived the following
 
 To get a local copy up and running follow these simple example steps.
 
-1. First clone the project with the command git clone  git@github.com:Tumworobere/Leaderboard.git
-2. Then run the command `npm install` in your terminal to install all package
-3. run `npm start` for starting the project in your browser
+- Clone this repo to your local machine, run git clone and paste the url of the repository
+  `git clone https://github.com/Tumworobere/Leaderboard.git` in your command prompt
+
+### Setup
+- Set up a new project with webpack 
+#### Install Webpack
+- Follow the instructions from the [getting started](https://webpack.js.org/guides/getting-started/#basic-setup) guide to set up the basics. Implement all the steps from *Basic Setup* to *NPM Scripts*.
+- The next step is to add html file :
+    Follow the instructions from the [setting up HtmlWebpackPlugin](https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin) guide
+Then
+```
+npm run build
+```
+- Create a **/src/index.html** for writing the project
+
+- Then modify **webpack.config.js** to point HtmlWebpackPlugin towards your template file:
+```javascript
+plugins: [
+  new HtmlWebpackPlugin({
+-   title: 'Output Management',
++   template: './src/index.html'
+  }),
+],
+```
+- Run `npm run build` to update the **/dist/index.html**.
+- Then it is time to add some style to the project:
+Follow the steps in [loading CSS](https://webpack.js.org/guides/asset-management/#loading-css) guide.
+Next, execute `npm run build` and check if the HTML body style has changed.
+#### Setup local dev server
+- Finally,follow the [using webpack-dev-server](https://webpack.js.org/guides/development/#using-webpack-dev-server) guide and set it up on your local machine.
 
 ## Authors
 
